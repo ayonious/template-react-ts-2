@@ -1,6 +1,6 @@
 # Typescript React Project Template
 
-[![CircleCI](https://circleci.com/gh/ayonious/template-react-ts.svg?style=svg)](https://circleci.com/gh/ayonious/template-react-ts)
+[![CircleCI](https://circleci.com/gh/ayonious/template-react-ts-2.svg?style=svg)](https://circleci.com/gh/ayonious/template-react-ts-2)
 
 > a bare minimum Typescripted react Project. Without using create-react-app
 
@@ -27,8 +27,8 @@ Also contains small tools:
 ### Devmode
 
 ```bash
-npm install
-npm run start
+yarn
+yarn start
 ```
 
 ### Make Production build

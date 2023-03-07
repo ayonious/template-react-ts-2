@@ -1,14 +1,18 @@
 import React from 'react';
-import { RouteComponentProps, withRouter } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { Wrapper } from './styles';
 
-const Hats = ({ history }: RouteComponentProps) => {
+const Hats = () => {
+  let navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/about');
+  };
   return (
-    <Wrapper onClick={() => history.push('/about')}>
+    <Wrapper onClick={handleClick}>
       <div>{'About page'}</div>
     </Wrapper>
   );
 };
 
-export default withRouter(Hats);
+export default Hats;
